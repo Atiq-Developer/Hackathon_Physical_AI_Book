@@ -2,6 +2,12 @@
 sidebar_position: 1
 ---
 
+## Physical AI & Humanoid Robotics Textbook
+
+Welcome to the companion site for the **Physical AI & Humanoid Robotics** textbook! This book guides you through integrating AI systems with humanoid robot bodies using simulation-first and sim-to-real workflows. Explore the modules in the sidebar to master Physical AI principles, build humanoid robot simulations, and deploy AI-driven robotic behaviors.
+
+---
+
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.

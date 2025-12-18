@@ -17,6 +17,7 @@ description: "Task list template for feature implementation"
 - **[P]**: Can run in parallel (different files, no dependencies)
 - **[Story]**: Which user story this task belongs to (e.g., US1, US2, US3)
 - Include exact file paths in descriptions
+- **Note**: All tasks should align with the project constitution (e.g., Technical Accuracy, Reproducibility).
 
 ## Path Conventions
 

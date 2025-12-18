@@ -1,55 +1,66 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles:
+  - [PRINCIPLE_1_NAME] → Technical Accuracy
+  - [PRINCIPLE_2_NAME] → Engineering Clarity
+  - [PRINCIPLE_3_NAME] → Embodiment-First Thinking
+  - [PRINCIPLE_4_NAME] → Reproducibility
+- Added sections:
+  - Key Standards
+  - Constraints & Quality Guardrails
+  - Success Criteria
+- Removed sections:
+  - N/A
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+---
+-->
+# AI/Spec-Driven Book Creation — Physical AI & Humanoid Robotics
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All robotics, AI, and simulation concepts must align with official documentation or peer-reviewed research. All factual claims must be traceable.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Engineering Clarity
+Content is written for senior undergraduate, graduate, and professional AI/robotics learners. The target writing clarity is Flesch-Kincaid grade level 11–13.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Embodiment-First Thinking
+Intelligence must always be grounded in physical constraints such as physics, sensing, latency, control, and actuation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Reproducibility
+All system architectures, pipelines, and workflows must be conceptually reproducible by readers. Code examples must be conceptually correct and idiomatic for the target platform.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+- **Traceability**: All factual claims must be traceable to one of the following:
+  - Official documentation (ROS 2, Gazebo, Unity, NVIDIA Isaac)
+  - Peer-reviewed robotics or AI research
+- **Citations**: All citations must use APA style.
+- **Source Mix**: A minimum of 50% of sources must be from peer-reviewed research papers. The remainder may be from official SDK or platform documentation.
 
+## Constraints & Quality Guardrails
 
-[PRINCIPLE__DESCRIPTION]
+- **Format**: The final output must be a single instructional textbook in Docusaurus-compatible Markdown with a chapter-based structure.
+- **Code**: All code must be in Python (for ROS 2, rclpy, AI pipelines) or YAML (for ROS configuration and launch files). No raw HTML or JSX is permitted.
+- **Diagrams**: All diagrams must be described textually. ASCII or Mermaid-compatible formats are required.
+- **Integrity**: There must be zero hallucinated APIs or fake citations.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Success Criteria
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+A reader who completes this book must be able to:
+- Explain Physical AI and the principles of embodied intelligence.
+- Build and simulate control pipelines for humanoid robots.
+- Connect Large Language Models (LLMs) to robotic actions in a meaningful way.
+- Understand the constraints and challenges of sim-to-real deployment.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the single source of truth for the project's principles and standards. All contributions and reviews must verify compliance. Any deviation requires a formal amendment to this document.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-18 | **Last Amended**: 2025-12-18

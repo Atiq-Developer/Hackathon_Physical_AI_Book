@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Technical Accuracy**: Does the plan rely on concepts from official documentation or peer-reviewed research?
+- [ ] **Engineering Clarity**: Is the proposed solution documented in a way that is clear for the target audience (senior UG/grad/professional)?
+- [ ] **Embodiment-First**: Does the design ground intelligence in physical constraints (physics, sensing, latency)?
+- [ ] **Reproducibility**: Is the proposed architecture conceptually reproducible by a reader?
+- [ ] **Standards Adherence**: Does the plan account for traceability, APA citations, and the 50% research source mix?
+- [ ] **Constraint Compliance**: Does the plan adhere to Docusaurus MD, Python/YAML, and text-only diagram constraints?
+- [ ] **Quality Guardrails**: Are there safeguards against hallucinated APIs, fake citations, or invalid markup?
 
 ## Project Structure
 

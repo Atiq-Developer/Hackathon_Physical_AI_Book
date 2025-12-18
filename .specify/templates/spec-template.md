@@ -113,3 +113,10 @@
 - **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
 - **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
 - **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+
+## Constitution Alignment
+
+- [ ] **Technical Accuracy**: Does this spec require claims that can be backed by research or documentation?
+- [ ] **Engineering Clarity**: Is the language and scope of this spec clear for the target audience?
+- [ ] **Embodiment-First**: If applicable, does the spec consider physical constraints?
+- [ ] **Reproducibility**: Is the feature described in a way that allows for a reproducible implementation?
