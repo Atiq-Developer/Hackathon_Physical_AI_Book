@@ -34,3 +34,29 @@ dist/
 .idea/
 *.log
 .env*
+
+# Qdrant local database (don't upload to Railway)
+app/rag/qdrant/
+backend/app/rag/qdrant/
+qdrant/
+*.lock
+*.sqlite
+*.db
+
+# Railway specific
+.railway/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Backup files
+*~
+*.bak
+*.backup
