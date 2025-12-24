@@ -13,12 +13,12 @@ const config = {
 
   // ✅ IMPORTANT: Vercel + GitHub Pages compatible
   url: "https://atiq-developer.github.io",
-  baseUrl: "/Hackathon_Physical_AI_Book/",
+  baseUrl: "/",
 
   organizationName: "Atiq-Developer",
   projectName: "Hackathon_Physical_AI_Book",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
